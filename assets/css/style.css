@@ -2,24 +2,40 @@ body{
 	
 }
 
-nav {
-	float:top;
-	float: right;
-	margin-bottom:55px;
-}
 
-h1{
-	background: #4aaaa5;
-	color:white;
-}
+
 
 
 header {
+	background:#ffffff;
 	height:115px;
 	padding: 20px;
 	margin-bottom: 20px;
 	color:#333;
 	}
+
+
+
+#name_box{
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	background:#4aaaa5;
+	font-size:55px;
+	float:left;
+	color:white;
+	margin-left:30px;
+}
+
+#nav_menu{
+	float:right;
+	color:gray;
+	padding-top:30px;
+	font-size:18px;
+	font-style: Arial;
+}
+
 
 #right {
     padding: 20px;
@@ -64,3 +80,8 @@ header {
 	float left;
 	margin-left: 20px;
 }
+
+
+#blotter{
+background: #ebebeb;
+	} /* main Background */
