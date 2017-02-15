@@ -1,9 +1,18 @@
 body{
+	max-width: 960px;
 	
+	/* background-color:#ebebeb; */
 }
 
+a, a:visited{
+     color:#777777; /* some color */;
+     text-decoration:none;
+}
 
-
+h1,h2{
+	color:#4aaaa5;
+	font-weight: bold;
+}
 
 
 header {
@@ -14,7 +23,15 @@ header {
 	border-color: #cccccc;
 	}
 
-
+#footer {
+	background:#ffffff;
+	height:28px;
+	padding:20px;
+	margin-bottom: 20px;
+	border-color: #cccccc;
+	position: fixed;
+	bottom:0px;
+	}
 
 #name_box{
 	padding-left:15px;
@@ -22,7 +39,8 @@ header {
 	padding-top:15px;
 	padding-bottom:15px;
 	background:#4aaaa5;
-	font-size:30px;
+	font-size:20px;
+	font-weight: bold;
 	float:left;
 	color:white;
 	margin-left:30px;
@@ -31,57 +49,31 @@ header {
 #nav_menu{
 	float:right;
 	color:gray;
-	padding-top:30px;
+	padding-top:15px;
+	padding-bottom:15px;
 	font-size:18px;
-	font-style: Arial;
+	font-style: "Arial";
 }
 
-
-#right {
-    padding: 20px;
-	margin-bottom: 20px;
-	color:green;
-	background:black;
-	width:33%;
-    float:right;
-}
-
-#left{
-	padding: 20px;
-	margin-bottom: 20px;
-	color:white;
-	background:#666;
-	width:33%;
-    float: left;
-}
-
-#n_box {
-	color:blue;
-	background: yellow;
+#narratve {
+	max-width: 270px;
+	color:#777777;
+	background: white;
 	float: left;
-	width: 40%;
+	width: 30%;
 	height:50%;
-	margin-left: 30px;
+	margin-top: 5%;
+	margin-left: 50px;
 	padding-left: 15px;
 	text-align:left;
 }
 
 #icon_box{
-    color:blue;
-	background:yellow;
+    color:#4aaaa5;
+	background:white;
 	float: right;
-	width: 10%;
-	height:25%;
+	max-width: 60%;
+	height:35%;
 	margin-left: 30px;
-	padding-left: 15px;
+	margin-top: 5%;
 }
-
-#image{
-	float left;
-	margin-left: 20px;
-} /* Image box */
-
-
-#blotter{
-background: #ebebeb;
-	} /* main Background */
