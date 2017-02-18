@@ -1,79 +1,109 @@
 body{
-	max-width: 960px;
-	
-	/* background-color:#ebebeb; */
+  width: 960px;
+  background-image: url("./assets/images/sg400px.png");
 }
 
-a, a:visited{
-     color:#777777; /* some color */;
+ a,a:visited{
+     color:#777777;
      text-decoration:none;
+     font-weight: bold;
 }
 
-h1,h2{
+a:hover{
+	color:#ADFF2F;
+	font-weight: bold
+}	
+
+h1,h2,h3{
 	color:#4aaaa5;
 	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+hr {
+	color:grey;
+}
 
-header {
-	background:#ffffff;
-	height:28px;
-	padding:20px;
-	margin-bottom: 20px;
-	border-color: #cccccc;
-	}
+#hdr{
+	background:white;
+	width: 100%;
+	height: 80px;
+	border-bottom: 3px #CCCCCC solid;
+}
 
-#footer {
-	background:#ffffff;
-	height:28px;
-	padding:20px;
-	margin-bottom: 20px;
-	border-color: #cccccc;
-	position: fixed;
-	bottom:0px;
-	}
-
-#name_box{
-	padding-left:15px;
-	padding-right:15px;
-	padding-top:15px;
-	padding-bottom:15px;
+#name_box { 
+	font-size:38px; 	 
+	padding : 15px 15px 5px 20px;
 	background:#4aaaa5;
-	font-size:20px;
-	font-weight: bold;
 	float:left;
 	color:white;
-	margin-left:30px;
+	margin-left:20px; 
+	height:60px; 
 }
 
 #nav_menu{
 	float:right;
 	color:gray;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding: 28px 15px 05px 1px;
 	font-size:18px;
-	font-style: "Arial";
+	font-family: "Arial";
 }
 
-#narratve {
-	max-width: 270px;
+#nav_menu a:hover{
+	color:#ADFF2F;
+	font-weight: bold
+}	
+
+#nav_menu a,a:visited{
+     color:#777777;
+     text-decoration:none;
+     font-weight: bold;
+}
+
+#nav_menu a:active{
+	color:#FF0000;
+	font-weight: bold
+}	
+
+ #bio_text {
 	color:#777777;
 	background: white;
 	float: left;
-	width: 30%;
-	height:50%;
-	margin-top: 5%;
-	margin-left: 50px;
-	padding-left: 15px;
-	text-align:left;
+	margin-top: 45px;
+	max-width: 630px;
+	margin-left:20px;
+	text-align: justify;
 }
 
+#bio_text h1 {
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Georgia';
+}
+ 
 #icon_box{
-    color:#4aaaa5;
 	background:white;
 	float: right;
-	max-width: 60%;
-	height:35%;
-	margin-left: 30px;
-	margin-top: 5%;
+	width: 255px;
+	height:150px;
+	padding: 0px 0px 15px 15px;
+	margin-top: 45px;
 }
+
+#ftr {
+	background:#666666;
+	color:#ffffff;
+	height: 150px;
+	width: 960px;
+	position: absolute;
+	bottom:0px;
+	border-top: 8px #4aaaa5 solid;
+	text-align: center;
+	padding-top: 15PX;
+
+	}
+
+
+
+
+
